@@ -1,0 +1,191 @@
+/* Reset some default styles for consistency */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* The background color for the entire page */
+body {
+  background-color: #000000e6;
+  font-family: Arial, sans-serif;
+}
+
+/* Styling the navigation bar */
+nav {
+  background-color: #333;
+  color: #000000;
+  padding: 10px 0;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.681);
+  
+}
+
+nav ul {
+  margin: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  font-style: oblique;
+
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.681);
+}
+
+/* Styling header on the landing page */
+#landing header {
+  text-align: center;
+  padding: 100px 0;
+  color: #020202;
+}
+
+#landing h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.artwork {
+  background: linear-gradient(
+    45deg,
+    #ff00ff,
+    #00ffd582,
+    #ff0000,
+    #0000ff,
+    #6e6e4182,
+    #cb03fd82
+  );
+  background-size: 400% 400%;
+  animation: gradient 10s linear infinite;
+  border-style:solid;
+  border-radius: 1ch;
+  margin-top: 10px;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.postion {
+  width: 50%;
+  margin: auto;
+
+}
+
+.Mario{
+  margin-top: 10px;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.681);
+  margin-right: 75px;
+  margin-left: 10%;
+  
+}
+.pos2{
+  width:50%;
+  margin: auto;
+}
+
+#landing p{
+  color: #fff;
+}
+ 
+/* Styling about section */
+#about {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #000000;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.681);
+}
+
+#about h1 {
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+#about p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  color: #fff;
+  text-shadow: 1px 1px 2px #ff0053, 0 0 1em #ff0000, 0 0 0.2em #ff0000;
+
+}
+
+/* Styling the images */
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Styling the portfolio section */
+#portfolio {
+  background-color: #a31e1ec5;
+  padding: 40px;
+}
+
+#portfolio h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.project {
+  margin-bottom: 30px;
+  background-color: #000000;
+  color: #fff;
+  text-shadow: 1px 1px 2px #ff0053, 0 0 1em #ff0000, 0 0 0.2em #ff0000;
+  text-decoration: solid;
+  box-shadow: 0 0 10px rgba(3, 3, 3, 0.681);
+}
+
+.project h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  width: 100px;
+  background-color: #0000ff;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.681);
+}
+
+.ptext{
+  max-width: 700px;
+  background-color: #000000;
+  color: #fff;
+  text-shadow: 1px 1px 2px #ff0053, 0 0 1em #ff0000, 0 0 0.2em #ff0000;
+  
+}
+
+/* Styling the contact section */
+#contact {
+  padding: 40px;
+  text-align: center;
+  color: white;
+}
+
+#contact h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  font-size: 16px;
+  line-height: 1.5;
+}
