@@ -6,7 +6,7 @@
     <title>Contact</title>
     <link rel="stylesheet" href="style.css" />
     <!-- CSS file for styling -->
-    <script src="code.js"></script>
+   
     <!-- Java Script file link  -->
   </head>
   <nav>
@@ -20,10 +20,38 @@
   <body>
     <section id="contact">
       <h2>Contact Me</h2>
-      <p>
-        If you'd like to get in touch and have a cool friend, please feel free
-        to reach out to me at your mom house.
-      </p>
+        <p>
+          If you'd like to get in touch and have a cool friend, please feel free
+          to leave your email and your name, I'd be sure to reach you as soon as I can.
+        </p>
+      <div class="interest-form">
+        
+        <form action="btn" method="post">
+            <div class="input-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+           
+            
+        </form>
+        
+        </div>
+    </div>
+    <div class="container">
+      <button type="submit" class="btn" onclick="openPopup()">Submit</button>
+      <div class="popup" id="popup">
+        <img src="404-tick.png" alt="checkmark">
+        <h2>Thank you</h2>
+        <p>Your details has been submitted</p>
+        <button type="button" onclick="closePopup()">OK</button>
+      </div>
+
     </section>
+
+    <script src="code.js"></script>
   </body>
 </html>
